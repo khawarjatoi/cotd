@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = (props) => (
+const Header = props => (
   <header className="top">
     <h1>
       Catch

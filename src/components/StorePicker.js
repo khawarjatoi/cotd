@@ -5,12 +5,12 @@ class StorePicker extends React.Component {
   myInput = React.createRef();
   goToStore = e => {
     //   1. Stop form from submitting
-      e.preventDefault();
+    e.preventDefault();
     //   2. Get the text from Input
-      const storeName = this.myInput.current.value;
+    const storeName = this.myInput.current.value;
     //   3. Change page to /store/whatever-they-entered
-      this.props.history.push(`/store/${storeName}`);
-  }
+    this.props.history.push(`/store/${storeName}`);
+  };
   render() {
     return (
       <form className="store-selector" onSubmit={this.goToStore}>
