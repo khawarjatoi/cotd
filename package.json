@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
+    "browserify": "^16.5.0",
+    "envify": "^4.1.0",
     "firebase": "^5.7.0",
     "prop-types": "^15.6.0",
     "re-base": "4.0.0",
@@ -16,7 +18,8 @@
     "react-router-dom": "^4.2.2",
     "react-transition-group": "^2.2.1",
     "serve": "^10.1.1",
-    "stylus": "0.54.5"
+    "stylus": "0.54.5",
+    "uglifyify": "^5.0.2"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -30,6 +33,7 @@
   },
   "browserslist": [
     ">0.2%",
+    "not dead",
     "not ie <= 11",
     "not op_mini all"
   ]
