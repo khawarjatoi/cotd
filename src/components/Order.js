@@ -41,7 +41,6 @@ class Order extends React.Component {
                {orderIds.map(this.renderOrder)}
                </span>
             </span>
-            {/* <span className="price">$32.00</span> */}
           <li className="total">
           Total:
             <strong>{formatPrice(total)}</strong>
